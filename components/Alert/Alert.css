@@ -3,7 +3,6 @@
     --warning: #fffa89;
     --update: #83b2ff;
     --success: #a9d581;
-
 }
 
 .alert-container {
@@ -12,24 +11,21 @@
     border-radius: 10px;
     outline: none;
     max-width: 25%;
-
 }
 
-.success {
+.bg-success {
     background-color: var(--success);
-
 }
 
-.warning {
+.bg-warning {
     background-color: var(--warning);
 }
 
-.update {
+.bg-update {
     background-color: var(--update);
-
 }
 
-.error {
+.bg-error {
     background-color: var(--error);
 }
 
@@ -42,7 +38,6 @@
     list-style: none;
     display: inline;
     padding: 1rem;
-
 }
 
 .navigation-container {

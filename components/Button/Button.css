@@ -20,46 +20,46 @@
     border-radius: 10px;
 }
 
-.primary-link {
+.btn-primary-link {
     background-color: var(--light-solid);
 }
 
-.secondary-link {
+.btn-secondary-link {
     background-color: var(--light-text);
 }
 
-.primary-solid {
+.btn-primary-solid {
     background-color: var(--dark-solid);
     color: var(--light-text)
 }
 
-.primary-solid:hover {
+.btn-primary-solid:hover {
     background-color: var(--light-solid);
     color: black;
 }
 
-.secondary-solid {
+.btn-secondary-solid {
     background-color: var(--light-solid);
     color: black;
 }
 
-.secondary-solid:hover {
+.btn-secondary-solid:hover {
     background-color: var(--dark-solid);
     color: white;
 }
 
-.disabled-solid {
+.btn-disabled-solid {
     background-color: var(--dark-solid);
     color: var(--light-text);
     opacity: 0.5;
 }
 
-.warning-solid {
+.btn-warning-solid {
     background-color: var(--error);
     color: white;
 }
 
-.error-solid {
+.btn-error-solid {
     background-color: var(--warning);
     color: black;
 }
@@ -68,7 +68,7 @@ a {
     text-decoration: none;
 }
 
-.primary-outline {
+.btn-primary-outline {
     border-color: var(--dark-solid);
     background-color: white;
 
@@ -76,16 +76,16 @@ a {
 
 
 
-.primary-outline:hover {
+.btn-primary-outline:hover {
     background-color: var(--dark-solid);
 }
 
-.secondary-outline {
+.btn-secondary-outline {
     border-color: var(--light-solid);
     background-color: white;
 }
 
-.secondary-outline:hover {
+.btn-secondary-outline:hover {
     background-color: var(--dark-text);
 }
 
