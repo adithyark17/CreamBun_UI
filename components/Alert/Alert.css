@@ -1,0 +1,45 @@
+:root {
+    --error: #ff8772;
+    --warning: #fffa89;
+    --update: #83b2ff;
+    --success: #a9d581;
+}
+
+.alert-container {
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 10px;
+    outline: none;
+    max-width: 25%;
+}
+
+.bg-success {
+    background-color: var(--success);
+}
+
+.bg-warning {
+    background-color: var(--warning);
+}
+
+.bg-update {
+    background-color: var(--update);
+}
+
+.bg-error {
+    background-color: var(--error);
+}
+
+#alert {
+    padding: 0.5rem;
+}
+
+
+.list-inline {
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+}
+
+.navigation-container {
+    display: flex;
+}
