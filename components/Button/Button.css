@@ -71,10 +71,7 @@ a {
 .btn-primary-outline {
     border-color: var(--dark-solid);
     background-color: white;
-
 }
-
-
 
 .btn-primary-outline:hover {
     background-color: var(--dark-solid);
