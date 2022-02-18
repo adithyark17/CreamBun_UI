@@ -1,0 +1,8 @@
+:root {
+    --rating: #0d439b;
+    ;
+}
+
+i {
+    color: var(--rating)
+}
