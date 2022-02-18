@@ -8,7 +8,11 @@
     --background: #edf4ff;
     --navbar: #0061ff;
     --menu: #0d439b;
+}
 
+* {
+
+    margin: 0%;
 }
 
 body {
@@ -31,7 +35,7 @@ body {
     text-decoration: none;
     justify-content: space-between;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .hero-img {
@@ -54,6 +58,14 @@ a:hover {
     border-left: 2px solid white;
 }
 
+main {
+    align-items: center;
+    margin: 2rem;
+}
+
+h2 {
+    margin-bottom: 2rem;
+}
 
 li {
     text-decoration: none;
@@ -69,6 +81,7 @@ li {
 p {
     width: 50%;
     align-items: center;
+    margin-bottom: 1rem;
 }
 
 
@@ -83,11 +96,12 @@ p {
 .main-container {
     display: flex;
     flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
 
 .menu {
     background-color: var(--menu);
-    margin: 1rem;
     padding: 1rem;
     border-right: 3px solid black;
 }
@@ -104,6 +118,7 @@ a {
 
 .txt-footer {
     text-align: center;
+    margin-bottom: 0.5rem;
 }
 
 .footer-list {
@@ -117,6 +132,13 @@ hr {
 
 footer {
     background-color: var(--navbar);
-    padding: 1rem;
-    color: white
+    color: white;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+
 }
