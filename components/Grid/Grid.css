@@ -1,22 +1,21 @@
+:root {
+    --black: #000;
+    --white: #FFFFFF;
+    --red: #FF0000;
+}
+
 .object {
     padding: 1rem;
-    border: 0.5rem solid black;
+    border: 0.5rem solid var(--black);
     border-radius: 1rem;
     margin: 2rem;
-    background-color: #94eaff;
+    color: var(--white);
+    background-color: var(--red);
 }
 
 .grid {
     display: grid;
-    justify-items: stretch;
-    align-items: center;
-    border: 0.25rem solid black;
-}
-
-.obj-2 {
-    grid-template-columns: repeat(autofit, 20rem);
-}
-
-.obj-3 {
-    grid-template-columns: repeat(3, 1fr);
+    border: 0.25rem solid var(--black);
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
