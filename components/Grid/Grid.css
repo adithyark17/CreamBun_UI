@@ -7,8 +7,16 @@
 }
 
 .grid {
-    display: flex;
+    display: grid;
+    justify-items: stretch;
+    align-items: center;
     border: 0.25rem solid black;
-    justify-content: space-evenly;
+}
 
+.obj-2 {
+    grid-template-columns: repeat(autofit, 20rem);
+}
+
+.obj-3 {
+    grid-template-columns: repeat(3, 1fr);
 }
