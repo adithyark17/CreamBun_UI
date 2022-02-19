@@ -11,11 +11,29 @@
     margin: 2rem;
     color: var(--white);
     background-color: var(--red);
+    text-align: center;
 }
 
 .grid {
     display: grid;
     border: 0.25rem solid var(--black);
     justify-content: space-evenly;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    /* grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+}
+
+/* .grid .obj-three {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid .obj-two {
+    grid-template-columns: repeat(2, 1fr);
+} */
+
+.obj-two {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.obj-three {
+    grid-template-columns: repeat(3, 1fr);
+
 }
