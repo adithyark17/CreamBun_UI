@@ -1,0 +1,21 @@
+:root {
+    --black: #000;
+    --white: #FFFFFF;
+    --red: #FF0000;
+}
+
+.object {
+    padding: 1rem;
+    border: 0.5rem solid var(--black);
+    border-radius: 1rem;
+    margin: 2rem;
+    color: var(--white);
+    background-color: var(--red);
+}
+
+.grid {
+    display: grid;
+    border: 0.25rem solid var(--black);
+    justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
