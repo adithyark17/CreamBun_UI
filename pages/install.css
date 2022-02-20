@@ -84,9 +84,6 @@ p {
     margin-bottom: 1rem;
 }
 
-
-
-
 .component {
     background-color: var(--light-text);
     width: 33%;
@@ -106,11 +103,6 @@ p {
     border-right: 3px solid black;
 }
 
-.code {
-    border: 2px solid;
-    padding: 2rem;
-    border-radius: 1rem;
-}
 
 a {
     text-decoration: none;
