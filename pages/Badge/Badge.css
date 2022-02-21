@@ -63,6 +63,7 @@ a:hover {
 main {
     align-items: center;
     margin: 2rem;
+    width: 100%;
 }
 
 .txt-container {
@@ -150,6 +151,10 @@ footer {
     width: 100%;
     overflow: hidden;
 
+}
+
+main {
+    width: 100%;
 }
 
 /* Component CSS  */

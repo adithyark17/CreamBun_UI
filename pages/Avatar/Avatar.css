@@ -152,6 +152,10 @@ footer {
 
 }
 
+main {
+    width: 100%;
+}
+
 /* Component CSS  */
 
 .avatar-container {

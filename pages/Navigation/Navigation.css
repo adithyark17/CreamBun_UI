@@ -144,7 +144,6 @@ footer {
     background-color: var(--navbar);
     color: white;
     padding: 2rem;
-    position: absolute;
     left: 0;
     bottom: 0;
     height: 40px;
