@@ -63,6 +63,7 @@ a:hover {
 main {
     align-items: center;
     margin: 2rem;
+    width: 100%;
 }
 
 .txt-container {

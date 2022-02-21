@@ -150,6 +150,10 @@ footer {
     overflow: hidden;
 }
 
+main {
+    width: 100%;
+}
+
 /* Component CSS  */
 
 .btn {
