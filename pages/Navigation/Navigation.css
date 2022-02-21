@@ -153,3 +153,25 @@ footer {
 }
 
 /* Component CSS  */
+
+.list-inline {
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+
+}
+
+.navigation-container {
+    display: flex;
+    background-color: var(--navbar);
+    margin: none;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}

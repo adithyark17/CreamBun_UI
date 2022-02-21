@@ -153,3 +153,51 @@ footer {
 }
 
 /* Component CSS  */
+
+:root {
+    --light-text: #e5fbff;
+    --light-solid: #94eaff;
+    --dark-text: #00b7ff;
+    --dark-solid: #006fd6;
+}
+
+.container {
+    display: flex;
+}
+
+.badge-container {
+    position: relative;
+    width: fit-content;
+    margin: 2rem;
+
+}
+
+.badge {
+    position: absolute;
+    top: -5px;
+    right: -15px;
+    background-color: var(--light-solid);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.25em;
+    border-radius: 50%;
+}
+
+.button-badge {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    background-color: inherit;
+    border: 2px solid;
+    color: inherit;
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-primary-solid {
+    background-color: var(--dark-solid);
+    color: var(--light-text)
+}

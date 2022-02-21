@@ -153,3 +153,44 @@ footer {
 }
 
 /* Component CSS  */
+
+.avatar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    margin: 1rem;
+    border-radius: 50%;
+}
+
+.avatar-m {
+    width: 7%;
+
+}
+
+.avatar-s {
+    width: 5%;
+}
+
+.avatar-l {
+    width: 10%;
+}
+
+
+.badge-container {
+    position: relative;
+    width: fit-content;
+}
+
+.badge {
+    position: absolute;
+    background-color: red;
+    top: -2px;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+
+}

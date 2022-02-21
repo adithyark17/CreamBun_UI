@@ -13,9 +13,8 @@
         <nav class="navigation-container">
             <div class="nav-brand"><a href="">CreamBun UI</a></div>
             <ul class="nav-list">
-                <li class="list-inline"><a href="">ABOUT US</a></li>
-                <li class="list-inline"><a href="">COMPONENTS</a></li>
-                <li class="list-inline"><a href="">INSTALL</a></li>
+                <li class="list-inline"><a href="../../Home.html">HOME</a></li>
+                <li class="list-inline"><a href="../Alert/Alert.html">COMPONENTS</a></li>
             </ul>
         </nav>
       </header>
@@ -28,6 +27,7 @@
             <li><a class="menu-list-link" href="../Badge/Badge.html">Badge</a></li>
             <li><a class="menu-list-link" href="../Button/Button.html">Button</a></li>
             <li><a class="menu-list-link" href="../Card/Card.html">Card</a></li>
+            <li><a class="menu-list-link" href="../Grid/Grid.html">Grid</a></li>
             <li><a class="menu-list-link" href="../Image/Image.html">Images</a></li>
             <li><a class="menu-list-link" href="../Input/Input.html">Input</a></li>
             <li><a class="menu-list-link" href="../Lists/Lists.html">Lists</a></li>
@@ -38,18 +38,25 @@
           </ul>
         </nav>
         <main>
-        
-             <h2>Rating</h2>
-            <div class="conatiner">
-                <div class="rating-container">
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                    <i class="far fa-star"></i>
-                </div>
+          <div class="container">
+            <div class="alert-container bg-success">
+                <i class="fas fa-check-circle" id="alert"></i>
+                <span>Success alert — <b>check it out!</b></span>
             </div>
-            <iframe src="https://www.thiscodeworks.com/embed/621293ae11c4db00151a7d95" style="width: 100%; height: 203px;" frameborder="0"></iframe>
+            <div class="alert-container bg-error">
+                <i class="fas fa-exclamation-circle" id="alert"></i>
+                <span>Error alert — <b>check it out!</b></span>
+            </div>
+            <div class="alert-container bg-warning">
+                <i class="fas fa-exclamation-triangle" id="alert"></i>
+                <span>Warning alert — <b>check it out!</b></span>
+            </div>
+            <div class="alert-container bg-update">
+                <i class="fas fa-info-circle" id="alert"></i>
+                <span>Info alert — <b>check it out!</b></span>
+            </div>
+        </div>
+        <iframe class="code-container" src="https://www.thiscodeworks.com/embed/621288195362a500156c2c2b" style="width: 100%; height: 320px;" frameborder="0"></iframe>
         </main>
       </div>
       <footer>
