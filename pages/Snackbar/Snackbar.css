@@ -1,0 +1,187 @@
+:root {
+    --light-text: #e5fbff;
+    --light-solid: #94eaff;
+    --dark-text: #00b7ff;
+    --dark-solid: #006fd6;
+    --error: #db1f00;
+    --warning: #fff110;
+    --background: #edf4ff;
+    --navbar: #0061ff;
+    --menu: #0d439b;
+}
+
+* {
+
+    margin: 0%;
+}
+
+/* Basic Site CSS */
+
+body {
+    background-color: var(--background);
+
+}
+
+.list-inline {
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+
+}
+
+.navigation-container {
+    display: flex;
+    background-color: var(--navbar);
+    margin: none;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.hero-img {
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    background-color: var(--light-solid);
+    width: 100%;
+    opacity: 70%;
+    color: black;
+    padding: 0.5rem 0.25rem;
+    border-left: 2px solid white;
+}
+
+main {
+    align-items: center;
+    margin: 2rem;
+}
+
+.txt-container {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid var(--dark-solid);
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 1rem;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0.5rem;
+    color: white;
+}
+
+.hero {
+    align-items: center;
+}
+
+p {
+    width: 50%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.component {
+    background-color: var(--light-text);
+    width: 33%;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    background-color: var(--menu);
+    padding: 1rem;
+    border-right: 3px solid black;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.txt-footer {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer-list {
+    text-align: center;
+    padding: 0.25rem;
+}
+
+hr {
+    width: 75%;
+}
+
+.code-container {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: var(--navbar);
+    color: white;
+    padding: 2rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.snackbar {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid var(--dark-solid);
+    border-radius: 10px;
+}
+
+/* Component CSS  */
+
+
+.snackbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--dark-solid);
+    width: 100%;
+    background-color: var(--light-solid);
+    padding: 0.5rem;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 0.5rem;
+
+}
+
+.btn {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    background-color: var(--dark-solid);
+    color: white;
+    text-decoration: none;
+    border: none;
+    outline: none;
+
+}

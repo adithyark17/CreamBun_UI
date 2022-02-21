@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text Utilities</title>
-    <link rel="stylesheet" href="Typography.css">
+    <title>Input</title>
+    <link rel="stylesheet" href="Input.css">
+    <script src="https://kit.fontawesome.com/23eb9e1375.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="header">
@@ -38,38 +39,44 @@
           </ul>
         </nav>
         <main>
-          <div class="contents">
-            <h2 class="heading">Text Utitlies</h2>
-            <div class="txt-container"> 
-              <h1>Heading 1</h1>
-              <h2>Heading 2 </h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-          </div>
-          <iframe class="code-container" src="https://www.thiscodeworks.com/embed/621287e15362a500156c2c2a" style="width: 100%; height: 528px;" frameborder="0"></iframe>
-          <h2>Text Size</h2>
-          <div class="txt-container">
-              <p class="txt-l">Large Text</p>
-              <p class="txt-m">Medium Text</p>
-              <p class="txt-s">Small Text</p>
-          </div>
-          <iframe class="code-container" src="https://www.thiscodeworks.com/embed/6212892a5362a500156c2c31" style="width: 100%; height: 268px;" frameborder="0"></iframe>
-
-          <h2>Text Variants</h2>
-          <div class="txt-container">
-              <p class="txt-bold">Bold Text</p>
-              <p class="txt-regular">Regular Text</p>
-              <p class="txt-light">Light Text</p>
-              <p class="txt-grey">Grey Text</p>
-          </div>
-          <iframe class="code-container" src="https://www.thiscodeworks.com/embed/6212895c5362a500156c2c33" style="width: 100%; height: 190px;" frameborder="0"></iframe>
-          <h2>Paragraph Text</h2>
-          <div class="txt-container">
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad necessitatibus eligendi exercitationem voluptate, odit vitae fugit dignissimos illo aperiam quas hic, quam itaque aut rem at aliquam, porro deleniti! Officiis.</p>
-          </div>
-          <iframe class="code-container" src="https://www.thiscodeworks.com/embed/62128b765362a500156c2c37" style="width: 100%; height: 164px;" frameborder="0"></iframe>
-          </div>
+          <h2>Text Box</h2>
+          <div class="input-container">
+            <label for="Username"> Username:</label>
+                <input type="text" placeholder="Username" required>
+        </div>
+        <iframe class="code-container" src="https://www.thiscodeworks.com/embed/6212913d11c4db00151a7d8a" style="width: 100%; height: 138px;" frameborder="0"></iframe>
+        <hr>
+        <h2>Email</h2>
+        <div class="input-container">
+            <label for="E-mail"> Enter Email ID:</label>
+            <input type="email-error" placeholder="E-mail">
+        </div>
+        <iframe class="code-container" src="https://www.thiscodeworks.com/embed/6212916e11c4db00151a7d8c" style="width: 100%; height: 138px;" frameborder="0"></iframe>
+        <hr>
+        <h2>Radio</h2>
+        <div class="input-container">
+            <label for="input-radio">Input 1:</label>
+                <input type="radio">
+            <label for="input-radio">Input 2:</label>
+                <input type="radio">
+        </div>
+        <iframe class="code-container" src="https://www.thiscodeworks.com/embed/6212928511c4db00151a7d8f" style="width: 100%; height: 177px;" frameborder="0"></iframe>
+        <hr>
+        <h2>Checkbox</h2>
+        <div class="input-container">
+            <label for="input">Input 1:</label>
+             <input type="checkbox" name="input-checkbox" id="">
+            <label for="input">Input 2:</label>
+                <input type="checkbox" name="input-checkbox" id="">
+        </div>
+        <iframe class="code-container" src="https://www.thiscodeworks.com/embed/621292e011c4db00151a7d91" style="width: 100%; height: 164px;" frameborder="0"></iframe>
+        <hr>
+        <h2>Slider</h2>
+        <div class="input-container">
+            <label for="slider"> Slider 1 - 10: </label>
+                <input type="range"  min="0" max="10" name="" id="">
+        </div>
+        <iframe class="code-container" src="https://www.thiscodeworks.com/embed/6212931211c4db00151a7d92" style="width: 100%; height: 138px;" frameborder="0"></iframe>
         </main>
       </div>
       <footer>
@@ -79,6 +86,6 @@
           <li class="list-inline"><a href="">LinkedIn</a></li>
           <li class="list-inline"><a href="">Twitter</a></li>
         </ul>
-      </footer>
-    </body>
-  </html>
+      </footer> 
+</body>
+</html>

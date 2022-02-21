@@ -151,42 +151,11 @@ footer {
 
 }
 
-.img-container {
+.input-container {
     background-color: white;
     padding: 2rem;
     border: 2px solid var(--dark-solid);
     border-radius: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 /* Component CSS  */
-
-
-
-.img-s,
-.img-s-round {
-    width: 50%;
-    height: auto;
-}
-
-.img-m,
-.img-m-round {
-    width: 75%;
-    height: auto
-}
-
-.img-l,
-.img-l-round {
-    width: 100%;
-    height: auto;
-}
-
-.img-s-round,
-.img-m-round,
-.img-l-round {
-    border-radius: 50%;
-    border: 2px solid black;
-
-}

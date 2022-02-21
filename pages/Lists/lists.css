@@ -15,6 +15,8 @@
     margin: 0%;
 }
 
+/* Basic Site CSS */
+
 body {
     background-color: var(--background);
 
@@ -63,8 +65,19 @@ main {
     margin: 2rem;
 }
 
-h2 {
-    margin-bottom: 2rem;
+.txt-container {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid var(--dark-solid);
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 1rem;
 }
 
 li {
@@ -122,15 +135,50 @@ hr {
     width: 75%;
 }
 
+.code-container {
+    margin-top: 1rem;
+}
+
 footer {
     background-color: var(--navbar);
     color: white;
     padding: 2rem;
-    position: absolute;
+
     left: 0;
     bottom: 0;
     height: 40px;
     width: 100%;
     overflow: hidden;
 
+}
+
+.list-container {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid var(--dark-solid);
+    border-radius: 10px;
+}
+
+/* Component CSS  */
+
+.inline-list {
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+    margin: 1rem;
+
+}
+
+.list-item-outline {
+    padding: 0.5rem;
+    width: 5%;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.lists {
+    color: black;
 }

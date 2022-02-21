@@ -1,0 +1,235 @@
+:root {
+    --light-text: #e5fbff;
+    --light-solid: #94eaff;
+    --dark-text: #00b7ff;
+    --dark-solid: #006fd6;
+    --error: #db1f00;
+    --warning: #fff110;
+    --background: #edf4ff;
+    --navbar: #0061ff;
+    --menu: #0d439b;
+}
+
+* {
+
+    margin: 0%;
+}
+
+/* Basic Site CSS */
+
+body {
+    background-color: var(--background);
+
+}
+
+.list-inline {
+    list-style: none;
+    display: inline;
+    padding: 1rem;
+
+}
+
+.navigation-container {
+    display: flex;
+    background-color: var(--navbar);
+    margin: none;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.hero-img {
+    align-items: center;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+a:hover {
+    background-color: var(--light-solid);
+    width: 100%;
+    opacity: 70%;
+    color: black;
+    padding: 0.5rem 0.25rem;
+    border-left: 2px solid white;
+}
+
+main {
+    align-items: center;
+    margin: 2rem;
+}
+
+.txt-container {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid var(--dark-solid);
+    border-radius: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 1rem;
+}
+
+li {
+    text-decoration: none;
+    list-style: none;
+    padding: 0.5rem;
+    color: white;
+}
+
+.hero {
+    align-items: center;
+}
+
+p {
+    width: 50%;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.component {
+    background-color: var(--light-text);
+    width: 33%;
+    height: 100%;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.menu {
+    background-color: var(--menu);
+    padding: 1rem;
+    border-right: 3px solid black;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.txt-footer {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.footer-list {
+    text-align: center;
+    padding: 0.25rem;
+}
+
+hr {
+    width: 75%;
+}
+
+.code-container {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: var(--navbar);
+    color: white;
+    padding: 2rem;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Component CSS  */
+
+.btn {
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.btn-primary-link {
+    background-color: var(--light-solid);
+}
+
+.btn-secondary-link {
+    background-color: var(--light-text);
+}
+
+.btn-primary-solid {
+    background-color: var(--dark-solid);
+    color: var(--light-text)
+}
+
+.btn-primary-solid:hover {
+    background-color: var(--light-solid);
+    color: black;
+}
+
+.btn-secondary-solid {
+    background-color: var(--light-solid);
+    color: black;
+}
+
+.btn-secondary-solid:hover {
+    background-color: var(--dark-solid);
+    color: white;
+}
+
+.btn-disabled-solid {
+    background-color: var(--dark-solid);
+    color: var(--light-text);
+    opacity: 0.5;
+}
+
+.btn-warning-solid {
+    background-color: var(--error);
+    color: white;
+}
+
+.btn-error-solid {
+    background-color: var(--warning);
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn-primary-outline {
+    border-color: var(--dark-solid);
+    background-color: white;
+}
+
+.btn-primary-outline:hover {
+    background-color: var(--dark-solid);
+}
+
+.btn-secondary-outline {
+    border-color: var(--light-solid);
+    background-color: white;
+}
+
+.btn-secondary-outline:hover {
+    background-color: var(--dark-text);
+}
+
+.fab {
+    background-color: var(--dark-solid);
+    color: white;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 1rem;
+    outline: none;
+    border: none;
+}
