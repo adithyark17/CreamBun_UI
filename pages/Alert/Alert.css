@@ -168,6 +168,10 @@ footer {
     --success: #a9d581;
 }
 
+main {
+    width: 100%;
+}
+
 .alert-container {
     padding: 0.5rem;
     margin: 1rem;
