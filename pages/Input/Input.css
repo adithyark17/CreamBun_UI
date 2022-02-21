@@ -143,13 +143,19 @@ footer {
     background-color: var(--navbar);
     color: white;
     padding: 2rem;
-    position: absolute;
     left: 0;
     bottom: 0;
     height: 40px;
     width: 100%;
     overflow: hidden;
 
+}
+
+.input-container {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid var(--dark-solid);
+    border-radius: 10px;
 }
 
 /* Component CSS  */

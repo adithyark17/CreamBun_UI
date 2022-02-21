@@ -139,6 +139,13 @@ hr {
     margin-top: 1rem;
 }
 
+.contents {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid var(--dark-solid);
+    border-radius: 10px;
+}
+
 footer {
     background-color: var(--navbar);
     color: white;

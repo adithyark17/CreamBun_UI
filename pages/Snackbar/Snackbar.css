@@ -152,6 +152,13 @@ footer {
 
 }
 
+.snackbar {
+    background-color: white;
+    padding: 2rem;
+    border: 2px solid var(--dark-solid);
+    border-radius: 10px;
+}
+
 /* Component CSS  */
 
 

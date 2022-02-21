@@ -153,3 +153,35 @@ footer {
 }
 
 /* Component CSS  */
+
+:root {
+    --black: #000;
+    --white: #FFFFFF;
+    --red: #FF0000;
+}
+
+.object {
+    padding: 1rem;
+    border: 0.5rem solid var(--black);
+    border-radius: 1rem;
+    margin: 2rem;
+    color: var(--white);
+    background-color: var(--red);
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    border: 0.25rem solid var(--black);
+    justify-content: space-evenly;
+}
+
+
+.obj-two {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.obj-three {
+    grid-template-columns: repeat(3, 1fr);
+
+}
