@@ -1,4 +1,4 @@
-# [CreamBun UI Component-library]
+# CreamBun UI Component-library
 
 CreamBun UI is a component library that was made as the first project for the neogcamp'22.
 
